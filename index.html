@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="title">
+        <h1>Calculator and Fahreinheit Converter</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="math">
+
+            <div class="calculate">
+
+                <h2>Calculator</h2>
+
+                <input type="number" id="first-number">
+                <input type="number" id="last-number">
+                <button onclick="add()">Add</button>
+                <button onclick="multiply()">Multiply</button>
+                <button onclick="subtract()">Subtract</button>
+                <button onclick="divide()">Divide</button>
+
+                <div class="answer-1">
+                    <h1 id="result"></h1>
+                </div>
+
+            </div>
+
+
+            <div class="converter">
+                <h2>Fahreinheit Converter</h2>
+                <input type="number" id="tempt">
+                <button onclick="celcius()">Convert to celcius</button>
+                <button onclick="kelvin()">Convert to kelvin</button>
+                <div class="answer-2">
+                    <h1 id="tempt-result"></h1>
+                </div>
+
+        
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
